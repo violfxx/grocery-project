@@ -1,0 +1,93 @@
+body {
+    background-color: #F1FFEF;
+    font-family: 'Assistant', sans-serif;
+}
+// Navbar Menu
+.navbar-brand {
+    img {
+        max-height: 50px;
+        padding-right: 240px;
+    }
+}
+.navbar-nav {
+    .nav-item {
+        padding-right: 55px;
+    }
+    // Icon Search and Cart
+    .icon-search {
+            margin-left:150px;
+    }
+    .icon-cart {
+            padding-left:10px;
+    }
+    .nav-link {
+        color: black;
+         &.active {
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+// Code For Content-menu
+.content-menu {
+    padding-top:150px;
+    h1 {
+        color: black;
+        font-size:96px;
+        font-weight: bold;
+    }
+    h2 {
+        color: black;
+        font-weight: lighter;
+        font-size: 96px;
+    }
+    .text-all {
+        padding-left:15%;
+    }
+    .text-discount {
+        padding-top:-60px;
+        margin-top:-30px;
+    }
+    .discount-number {
+        padding-left: 15%;
+        margin-top: -30px;
+    }
+    .btn-buy-now-slanted {
+        color:black;
+        background-color: #b1b1b1;
+        font-weight: bold;
+        margin-left:180px;
+        margin-top:-15px;
+        -ms-transform: skewX(-13deg);
+        -webkit-transform: skewX(-13deg);
+        transform: skewX(-13deg);
+    &:hover {
+        -ms-transform: skewX(-15deg);
+        -webkit-transform: skewX(-15deg);
+        transform: skewX(-15deg);
+        background-color: #a09e9e;
+        color: black;
+        }
+    }
+}
+// Gallery
+.gallery {
+    margin-left:480px;
+    margin-top:-400px;
+
+    img {
+        box-sizing: none;
+    }
+}    
+.social-media {
+    writing-mode: horizontal-tb;
+    transform:rotate(-90deg);
+    margin-top:-0px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.carousel {
+    padding-right: 350px;
+}
